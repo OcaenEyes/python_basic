@@ -35,3 +35,7 @@ for j in range(100):
         threading.Thread(target=action,args=(100,)).run()
         threading.Thread(target=action,args=(100,)).run()
 
+###### 线程的运行和阻塞状态
+
+
+###### 线程死亡
