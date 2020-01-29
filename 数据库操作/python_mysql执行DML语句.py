@@ -10,7 +10,7 @@
 import pymysql
 # 使用游标的 execute() 方法执行 DML 的 insert、update、delete 语句，对数据库进行插入、修改和删除数据操作。
 
-conn = pymysql.connect('127.0.0.1','root','','testdata')
+conn = pymysql.connect('127.0.0.1','root','123456','testdata')
 c = conn.cursor()
 c.execute(
     'insert into user_tb values(null, %s, %s, %s)',

@@ -9,7 +9,7 @@
 # 导入访问mysql的模块
 import pymysql
 # 连接数据库
-conn = pymysql.connect('127.0.0.1','root','','testdata')
+conn = pymysql.connect('127.0.0.1','root','123456','testdata')
 # 获取游标
 c = conn.cursor()
 # 执行DDL语句创建数据表
